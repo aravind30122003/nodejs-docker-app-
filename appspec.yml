@@ -3,11 +3,11 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/nodejs-docker-app
+    destination: /home/ubuntu/nodejs-docker-app
 
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
       timeout: 300
-      runas: ec2-user
+      runas: ubuntu
 

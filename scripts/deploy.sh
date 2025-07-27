@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ec2-user/nodejs-docker-app
+cd /home/ubuntu/nodejs-docker-app
 
 # Stop and remove previous containers
 docker-compose down
