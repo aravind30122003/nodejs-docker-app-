@@ -3,14 +3,14 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   const message = `
-    🌸✨ Hi Ammu! ✨🌸
+    🌸✨ Hi Muu! ✨🌸
 
     🎂 Advance Happy Birthday! 🎉
-    ❤️ I love you so much — Umma 💋
+    ❤️ I love you as always — Umma 💋
 
     🕊️ Wishing you happiness, health, and all your dreams come true!
 
-    — With love from Chottu 💌
+    — With love from Aarav 💌
   `;
   res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
   res.end(message);
